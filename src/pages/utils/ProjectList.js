@@ -1,0 +1,32 @@
+export const ProjectList = [
+  {
+    _id: 1,
+    notify: "Full Stack",
+    card_img: "./ruhul.jpg",
+    badge1: "React",
+    badge2: "Node",
+    badge3: "MongoDB",
+    badge4: "Express",
+    name: "Ecommerce Website",
+  },
+  {
+    _id: 2,
+    notify: "Front-end",
+    card_img: "./ruhul.jpg",
+    badge1: "React",
+    badge2: "Bootstrap",
+    badge3: "HTML",
+    badge4: "SCSS",
+    name: "Admin Dashboard UI",
+  },
+  {
+    _id: 3,
+    notify: "Back-end",
+    card_img: "./ruhul.jpg",
+    badge1: "React",
+    badge2: "Node",
+    badge3: "MongoDB",
+    badge4: "Express",
+    name: "Booking APIs",
+  },
+];
