@@ -29,17 +29,10 @@ const SidebarMenu = ({ toggle }) => {
                 About
               </div>
               <div className="nav-link">
-                <MdOutlineWorkHistory />
-                Experience
-              </div>
-              <div className="nav-link">
                 <GrTechnology />
                 Tech Stack
               </div>
-              <div className="nav-link">
-                <MdCastForEducation />
-                Education
-              </div>
+
               <div className="nav-link">
                 <GoProject />
                 Projects
@@ -47,6 +40,14 @@ const SidebarMenu = ({ toggle }) => {
               <div className="nav-link">
                 <MdModelTraining />
                 Training
+              </div>
+              <div className="nav-link">
+                <MdCastForEducation />
+                Education
+              </div>
+              <div className="nav-link">
+                <MdOutlineWorkHistory />
+                Experience
               </div>
               <div className="nav-link">
                 <MdOutlineContactEmergency />
@@ -66,19 +67,20 @@ const SidebarMenu = ({ toggle }) => {
                 <FcAbout title="About" size={27} />
               </div>
               <div className="nav-link">
-                <MdOutlineWorkHistory title="Experience" size={27} />
-              </div>
-              <div className="nav-link">
                 <GrTechnology title="Tech Stack" size={27} />
               </div>
-              <div className="nav-link">
-                <MdCastForEducation title="Education" size={27} />
-              </div>
+
               <div className="nav-link">
                 <GoProject title="Projects" size={27} />
               </div>
               <div className="nav-link">
                 <MdModelTraining title="Training" size={27} />
+              </div>
+              <div className="nav-link">
+                <MdCastForEducation title="Education" size={27} />
+              </div>
+              <div className="nav-link">
+                <MdOutlineWorkHistory title="Experience" size={27} />
               </div>
               <div className="nav-link">
                 <MdOutlineContactEmergency title="Contact" size={27} />

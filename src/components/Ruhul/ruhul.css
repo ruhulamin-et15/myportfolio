@@ -7,7 +7,7 @@
 .sidebar{
     height: 100vh;
     position: fixed;
-    background-color: rgb(221, 37, 181);
+    background-color: rgba(185, 124, 54, 0.616);
     flex: 0.3;
     
 }

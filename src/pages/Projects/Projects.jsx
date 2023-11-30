@@ -7,9 +7,7 @@ const Projects = () => {
   return (
     <>
       <div className="container project">
-        <h2 className="text-center mt-3 text-uppercase text-black">
-          Top Recent Projects
-        </h2>
+        <h4 className="text-center mt-3 text-uppercase">Top Recent Projects</h4>
         <hr />
         <p className="text-center text-black">
           Here are my top 3 recent project with live links and source code.
@@ -22,7 +20,7 @@ const Projects = () => {
         </p>
         <div className="row" id="ads">
           {ProjectList.map((project) => (
-            <div className="col-md-4" key={project._id}>
+            <div className="col-md-4 mt-4" key={project._id}>
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">{project.notify}</span>
@@ -40,7 +38,7 @@ const Projects = () => {
                       {project.name}
                     </h5>
                   </div>
-                  <button href="#">View</button>
+                  <a href={project.link}>View</a>
                 </div>
               </div>
             </div>
