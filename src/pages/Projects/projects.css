@@ -1,6 +1,7 @@
 
-.project h2{
+.project h4{
     font-weight: bold;
+    color: whitesmoke;
 }
 
 .project p{
@@ -48,19 +49,22 @@
     margin: 2px 2px;
 }
 
-.card-body button{
+.card-body a{
     display: flex;
     margin: auto;
     justify-content: center;
+    text-decoration: none;
+    color: white;
     background-color: rgba(0, 128, 0, 0.801);
     border: none;
-    width: 150px;
+    width: 120px;
     padding: 1px 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 20px;
 }
-.card-body button:hover{
+.card-body a:hover{
+    color: blue;
     background-color: whitesmoke;
-    width: 160px;
+    width: 130px;
     transition: all 0.5s;
 }

@@ -6,7 +6,7 @@ const TechStack = () => {
   return (
     <>
       <div className="container techstack">
-        <h2 className="text-center mt-3 text-uppercase">Technologies Stack</h2>
+        <h4 className="text-center mt-3 text-uppercase">Technologies Stack</h4>
         <hr />
         <p className="text-center text-black">
           inlcuding programming Languages, framwork, databases, front-end and
