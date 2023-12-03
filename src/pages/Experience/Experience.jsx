@@ -10,7 +10,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 const Experience = () => {
   return (
     <>
-      <div className="container experience">
+      <div className="container experience" id="experience">
         <h4 className="text-center mt-2 text-uppercase">Experience</h4>
         <hr />
         <VerticalTimeline className="vertical">

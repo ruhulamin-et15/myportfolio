@@ -21,6 +21,11 @@
     border-radius: 5px;
 }
 
+.nav-link a{
+    text-decoration: none;
+    color:black;
+}
+
 .nav-link:hover{
     background-color: aqua;
     color: black;
