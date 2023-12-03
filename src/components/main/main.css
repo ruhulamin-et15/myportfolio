@@ -56,3 +56,12 @@
     height: 675px;
 }
 
+.section8{
+    display: flex;
+    background-color: rgba(189, 22, 169, 0.84);
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+

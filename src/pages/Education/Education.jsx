@@ -10,7 +10,7 @@ import { FaUserGraduate } from "react-icons/fa";
 const Education = () => {
   return (
     <>
-      <div className="container education">
+      <div className="container education" id="education">
         <h4 className="text-center mt-2 text-uppercase">
           Educational Background
         </h4>

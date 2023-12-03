@@ -6,7 +6,7 @@ import { ProjectList } from "../utils/ProjectList";
 const Projects = () => {
   return (
     <>
-      <div className="container project">
+      <div className="container project" id="projects">
         <h4 className="text-center mt-3 text-uppercase">Top Recent Projects</h4>
         <hr />
         <p className="text-center text-black">

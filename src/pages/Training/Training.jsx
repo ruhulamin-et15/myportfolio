@@ -4,7 +4,7 @@ import "./training.css";
 const Training = () => {
   return (
     <>
-      <div className="container training">
+      <div className="container training" id="training">
         <h4 className="text-center text-uppercase mt-2">Training</h4>
         <hr />
         <div className="trainingDevide">

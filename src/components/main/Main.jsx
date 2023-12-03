@@ -7,6 +7,7 @@ import Projects from "../../pages/Projects/Projects";
 import Experience from "../../pages/Experience/Experience";
 import Training from "../../pages/Training/Training";
 import Education from "../../pages/Education/Education";
+import Contact from "../../pages/Contact/Contact";
 
 const Main = () => {
   return (
@@ -33,6 +34,15 @@ const Main = () => {
         <div className="section7">
           <Education />
         </div>
+        <div className="section8">
+          <Contact />
+        </div>
+        <footer className="text-center">
+          <small>
+            ©Portfolio Webpage. All rights reserved. Ruhul Amin,
+            Dhaka-Bangladesh.
+          </small>
+        </footer>
       </div>
     </>
   );
