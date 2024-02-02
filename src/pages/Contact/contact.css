@@ -1,0 +1,9 @@
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h3{
+    color: whitesmoke;
+}

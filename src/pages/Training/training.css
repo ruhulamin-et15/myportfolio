@@ -1,0 +1,56 @@
+.training h4 {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.trainingDevide .top {
+  display: flex;
+  margin: 10px;
+}
+
+.trainingDevide .top .left {
+  display: flex;
+  background-color: rgb(3, 46, 22);
+  margin-right: 5px;
+  flex: 30%;
+  border-radius: 5px;
+}
+.trainingDevide .top .left img {
+  margin: 5px;
+  width: 450px;
+  height: 240px;
+  border-radius: 5px;
+}
+.trainingDevide .top .right {
+  display: flex;
+  background-color: rgb(127, 176, 148);
+  margin-left: 5px;
+  flex: 60%;
+  border-radius: 5px;
+}
+
+.trainingDevide .bottom {
+  display: flex;
+  margin: 10px;
+}
+
+.trainingDevide .bottom .left {
+  display: flex;
+  background-color: rgb(3, 46, 22);
+  margin-right: 5px;
+  flex: 30%;
+  border-radius: 5px;
+}
+.trainingDevide .bottom .left img {
+  margin: 5px;
+  width: 450px;
+  height: 240px;
+  border-radius: 5px;
+}
+.trainingDevide .bottom .right {
+  display: flex;
+  background-color: rgb(127, 176, 148);
+  margin-left: 5px;
+  flex: 60%;
+  border-radius: 5px;
+}

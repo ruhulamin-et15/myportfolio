@@ -1,0 +1,23 @@
+.techstack h4{
+    color: white;
+}
+.techstack hr{
+    margin-top: 5px;
+    color: black;
+}
+
+.techstack .card{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.techstack .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(181, 47, 161);
+    color: rgb(66, 216, 16);
+    transition: 1s;
+}
+
+.techstack .tech-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}

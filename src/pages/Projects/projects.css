@@ -1,0 +1,70 @@
+
+.project h4{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.project p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#ads{
+    margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge{
+    position: absolute;
+    left: -15px;
+    top: -20px;
+    background: pink;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: #B52FA1;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 1s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card-detail-badge{
+    background-color: rgba(220, 120, 14, 0.801);
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
+    margin: 2px 2px;
+}
+
+.card-body a{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.801);
+    border: none;
+    width: 120px;
+    padding: 1px 5px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.card-body a:hover{
+    color: blue;
+    background-color: whitesmoke;
+    width: 130px;
+    transition: all 0.5s;
+}

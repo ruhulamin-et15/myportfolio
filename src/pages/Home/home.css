@@ -1,0 +1,41 @@
+
+.home h1{
+   padding: 10px;
+   margin-left: 40px;
+}
+
+.home h2{
+    color: rgb(223, 154, 51);
+    padding-left: 10px;
+    margin-left: 40px;
+ }
+
+ .home .home-buttons{
+    margin-left: 50px;
+    margin-top: 15px;
+ }
+
+ .home .home-buttons .btn-hire{
+    background-color: rgb(47, 47, 225);
+    color: white;
+    width: 150px;
+ }
+ .home .home-buttons .btn-hire:hover{
+    background-color: white;
+    color: black;
+    width: 200px;
+    transition: 1s;
+ }
+ 
+ .home .home-buttons .btn-resume{
+    background-color: rgb(47, 225, 62);
+    color: white;
+    width: 150px;
+    margin-left: 5px;
+ }
+ .home .home-buttons .btn-resume:hover{
+    background-color: white;
+    color: rgb(11, 11, 239);
+    width: 150px;
+    transition: 1s;
+ }
