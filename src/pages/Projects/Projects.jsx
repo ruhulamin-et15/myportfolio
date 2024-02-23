@@ -1,6 +1,6 @@
 import React from "react";
-import "./projects.css";
 import { ProjectList } from "../utils/ProjectList";
+import "./projects.css";
 // import { ProjectList } from "../utils/ProjectList";
 
 const Projects = () => {
@@ -11,12 +11,6 @@ const Projects = () => {
         <hr />
         <p className="text-center text-black">
           Here are my top 3 recent project with live links and source code.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius autem
-          odit, ut eligendi nulla pariatur ad esse corrupti totam aperiam modi
-          est ducimus vitae at. Quasi laborum asperiores id similique vitae
-          fugit accusantium ullam, sapiente hic odit sunt accusamus? Repellat ad
-          asperiores molestias itaque reprehenderit odio deleniti! Neque,
-          architecto consectetur.
         </p>
         <div className="row" id="ads">
           {ProjectList.map((project) => (

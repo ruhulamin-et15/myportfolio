@@ -1,38 +1,38 @@
-.about{
-    display: flex;
-    margin: 20px;
+.about {
+  display: flex;
+  margin: 20px;
 }
-.about .left{
-    display: flex;
-    flex: 45%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin-right: 5px;
-    border-radius: 5px;
+.about .left {
+  display: flex;
+  flex: 45%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-right: 5px;
+  border-radius: 5px;
 }
-.about .left img{
-    height: 400px;
-    width: 500px;
-    border-radius: 5px;
+.about .left img {
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
 }
 
-.about .right{
-    flex: 45%;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin-left: 5px;
-    border-radius: 5px;
+.about .right {
+  flex: 45%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 5px;
+  border-radius: 5px;
 }
-.about .right h4{
-    text-align: center;
-    margin-top: 10px;
-    text-decoration: underline;
-    padding: 10px;
+.about .right h4 {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+  padding: 10px;
 }
-.about .right p{
-    text-align: start;
-    margin-left: 50px;
-    margin-right: 50px;
+.about .right p {
+  text-align: start;
+  margin-left: 50px;
+  margin-right: 50px;
 }
