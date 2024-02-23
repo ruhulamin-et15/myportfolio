@@ -1,4 +1,5 @@
 import React from "react";
+import MyImage from "../../assets/images/ruhul.jpg";
 import "./about.css";
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
     <>
       <div className="container about" id="about">
         <div className="left">
-          <img src="./ruhul.jpg" alt="" />
+          <img src={MyImage} alt="ruhul" />
         </div>
         <div className="right">
           <h4>About Me</h4>

@@ -1,14 +1,15 @@
-import "./sidebarmenu.css";
-import { RiHome8Line } from "react-icons/ri";
 import { FcAbout } from "react-icons/fc";
+import { GoProject } from "react-icons/go";
+import { GrTechnology } from "react-icons/gr";
 import {
-  MdOutlineWorkHistory,
   MdCastForEducation,
   MdModelTraining,
   MdOutlineContactEmergency,
+  MdOutlineWorkHistory,
 } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GoProject } from "react-icons/go";
+import { RiHome8Line } from "react-icons/ri";
+import MyImage from "../../assets/images/ruhul.jpg";
+import "./sidebarmenu.css";
 
 const SidebarMenu = ({ toggle }) => {
   return (
@@ -16,7 +17,7 @@ const SidebarMenu = ({ toggle }) => {
       {toggle ? (
         <>
           <div className="nav-profile-img">
-            <img src="/ruhul.jpg" alt="profile img" />
+            <img src={MyImage} alt="ruhul" />
           </div>
           <div className="nav-items">
             <div className="nav-item">
