@@ -1,7 +1,7 @@
 .section1 {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: rgb(198, 192, 192);
   border-radius: 5px;
   margin-top: 8px;
   height: 200px;
@@ -58,7 +58,7 @@
 
 .section8 {
   display: flex;
-  background-color: gray;
+  background-color: rgb(198, 192, 192);
   border-radius: 5px;
   margin-top: 10px;
   height: 300px;

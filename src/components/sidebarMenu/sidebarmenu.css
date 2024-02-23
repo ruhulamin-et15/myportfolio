@@ -1,39 +1,38 @@
-.nav-profile-img img{
-    border-radius: 90px;
-    height: 150px;
-    width: 150px;
-    display: flex;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-top: 5px;
+.nav-profile-img img {
+  border-radius: 90px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
-.nav-item{
-    color: rgb(70, 6, 6);
-    font-size: 20px;
-    margin-left: 20px;
+.nav-item {
+  color: rgb(70, 6, 6);
+  font-size: 20px;
+  margin-left: 20px;
 }
 
-.nav-link{
-    margin-top: 18px;
-    padding: 25px;
-    cursor: pointer;
-    border-radius: 5px;
+.nav-link {
+  margin-top: 18px;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.nav-link a{
-    text-decoration: none;
-    color:black;
+.nav-link a {
+  text-decoration: none;
+  color: black;
 }
 
-.nav-link:hover{
-    background-color: aqua;
-    color: black;
+.nav-link:hover {
+  background-color: aqua;
+  color: black;
 }
 
-.nav-link svg{
-    margin-right: 10px;
-    background-color: rgb(198, 188, 170);
-    border-radius: 5px;
-    margin-left: 5px;
+.nav-link svg {
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
 }

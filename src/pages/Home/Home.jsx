@@ -1,6 +1,6 @@
-import "./home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/Md.Ruhul Amin.pdf";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -21,7 +21,9 @@ const Home = () => {
           />
         </h2>
         <div className="home-buttons">
-          <button className="btn btn-hire">Hire Me</button>
+          <a href="#contact" className="btn btn-hire">
+            Hire Me
+          </a>
           <a
             href={Resume}
             download="Md.Ruhul Amin.pdf"

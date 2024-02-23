@@ -1,9 +1,39 @@
-#contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#contact h4 {
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
 }
 
-#contact h3{
-    color: whitesmoke;
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+}
+
+#right {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+}
+
+#right img {
+  border-radius: 10px;
+}
+
+#link {
+  margin-left: 180px;
+}
+
+#link,
+p {
+  font-weight: bold;
+  font-size: large;
 }
