@@ -11,20 +11,18 @@ const About = () => {
         <div className="right">
           <h4>About Me</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            distinctio, repellat, alias quidem maiores, similique corrupti
-            consectetur debitis ipsa suscipit dolor cupiditate voluptatibus
-            consequatur. Expedita fugit eligendi deserunt tempora necessitatibus
-            est magni ullam dignissimos. Atque praesentium adipisci vel eligendi
-            nulla officia aliquam tempore, odio dolorum magni? Tempora repellat
-            quia unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Provident at facilis vero soluta accusantium non ea dicta. Nostrum
-            at quidem iste omnis aperiam, esse autem assumenda repudiandae
-            facere repellendus atque eius dolore dolores, inventore, odio sint
-            itaque cum minima ut doloribus debitis beatae commodi quam. Quia,
-            corporis minus. Blanditiis eius error tempore? Ad, deleniti.
-            Incidunt voluptatibus quam provident doloribus delectus? Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit. Eum, odio.
+            I am Md. Ruhul Amin, born on June 1st, 1999, hails from Rangpur. A
+            Diploma Degree of Rangpur Polytechnic Institute in 2019, I am a
+            dedicated individual with a passion for web development. With a
+            strong foundation in technology and programming acquired through
+            time at Rangpur Polytechnic Institute, I'm brings creativity and
+            innovation to every project. Committed to pushing the boundaries of
+            web development/creating user-friendly and aesthetically pleasing
+            websites. In his free time, i'm enjoying delving into the latest
+            trends and technologies in web development, constantly seeking to
+            enhance my skills and expand knowledge base. With a keen eye for
+            design and functionality, poised to make a significant impact in the
+            field of web development and beyond.
           </p>
         </div>
       </div>
