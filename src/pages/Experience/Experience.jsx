@@ -33,23 +33,6 @@ const Experience = () => {
             </h5>
             <h6 className="mt-2">Software & Hardware</h6>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{
-              background: "rgb(33, 150, 243)",
-              color: "whitesmoke",
-            }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2019 - 2021"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<BsPersonWorkspace />}
-          >
-            <h4 className="vertical-timeline-element-title">
-              Front-End Developer
-            </h4>
-            <h5 className="vertical-timeline-element-subtitle">Daraz BD</h5>
-            <h6 className="mt-2">Ecommerce App</h6>
-          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>

@@ -17,10 +17,9 @@ const Training = () => {
                 <h4>Title: Reactive Accelerator</h4>
                 <h5>Institute: Learn with Sumit</h5>
                 <h5>URL: http://learnwithsumit.com</h5>
-                <h6>Duration: 4 months</h6>
+                <h6>Duration: 5 months</h6>
                 <p>
-                  Library/Framework: JavaScript, React.js Next.js, Tailwind CSS,
-                  Bootstrap,
+                  Library/Framework: JavaScript, React.js Next.js, Tailwind CSS
                 </p>
               </div>
             </div>

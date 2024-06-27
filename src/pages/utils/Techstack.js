@@ -8,95 +8,73 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { RiJavascriptLine } from "react-icons/ri";
-import {
-  SiTailwindcss,
-  SiTypescript,
-  SiMui,
-  SiExpress,
-  SiMongodb,
-} from "react-icons/si";
-import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
-import { BsFiletypeSql } from "react-icons/bs";
+import { SiTailwindcss, SiMui, SiExpress, SiMongodb } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const TechstackList = [
   {
     _id: 1,
-    name: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    _id: 2,
-    name: "CSS/SCSS",
-    icon: FaCss3,
-  },
-  {
-    _id: 3,
     name: "JavaScript",
     icon: RiJavascriptLine,
   },
   {
-    _id: 4,
-    name: "Bootstrap",
-    icon: FaBootstrap,
-  },
-  {
-    _id: 5,
-    name: "Tailwind",
-    icon: SiTailwindcss,
-  },
-  {
-    _id: 6,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    _id: 7,
+    _id: 2,
     name: "React JS",
     icon: FaReact,
   },
   {
-    _id: 8,
+    _id: 3,
     name: "Next JS",
     icon: TbBrandNextjs,
   },
   {
-    _id: 9,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
-    _id: 10,
-    name: "Figma",
-    icon: FaFigma,
-  },
-  {
-    _id: 11,
+    _id: 4,
     name: "Node JS",
     icon: FaNodeJs,
   },
   {
-    _id: 12,
+    _id: 5,
     name: "Express JS",
     icon: SiExpress,
   },
   {
-    _id: 13,
+    _id: 6,
     name: "MongoDB",
     icon: SiMongodb,
   },
   {
-    _id: 14,
-    name: "SQL",
-    icon: BsFiletypeSql,
+    _id: 7,
+    name: "HTML",
+    icon: FaHtml5,
   },
   {
-    _id: 15,
+    _id: 8,
+    name: "CSS/SCSS",
+    icon: FaCss3,
+  },
+  {
+    _id: 9,
+    name: "Tailwind CSS",
+    icon: SiTailwindcss,
+  },
+  {
+    _id: 10,
+    name: "Bootstrap",
+    icon: FaBootstrap,
+  },
+  {
+    _id: 11,
+    name: "React MUI",
+    icon: SiMui,
+  },
+  {
+    _id: 12,
+    name: "Figma",
+    icon: FaFigma,
+  },
+  {
+    _id: 13,
     name: "Github",
     icon: FaGithub,
-  },
-  {
-    _id: 16,
-    name: "React Native",
-    icon: TbBrandReactNative,
   },
 ];
